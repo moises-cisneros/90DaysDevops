@@ -30,7 +30,8 @@ Este es el desglose diario de mi progreso, con enlaces a las notas y prácticas 
 
 ### Semana 01
 
-- [**Día 01**](./week-01/day-01.md) - Introducción a DevOps y Fundamentos de Linux (WSL)
+- [**Día 01**](./week-01/day-01.md) - DevOps y la Importancia de Linux
+- [**Día 02**](./week-01/day-02.md) - Comandos, estructura, usuarios y permisos
 
 ## 📸 Contenido Adicional
 

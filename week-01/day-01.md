@@ -88,7 +88,7 @@ Hoy fue un día fundamental. Entender la problemática entre Dev y Ops me hizo v
 ## 📎 Recursos
 
 * **Video original que inspiró este resumen:** [What is DevOps? - Rackspace Technology](https://youtu.be/_I94-tJlovg?si=hCYGE-unV8DE6wdJ)
-* **Artículo del reto (Día 1):** [Enlace al artículo "DevOps en 90 Días con Roxs - Día 1"](https://90daysdevops.295devops.com/semana-01/dia1/)
-* **Guía de instalación de WSL:** [Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
+* [Artículo del reto - Día 1](https://90daysdevops.295devops.com/semana-01/dia1/)
+* [Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
 
 -----
