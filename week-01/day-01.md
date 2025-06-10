@@ -61,7 +61,8 @@ Para empezar, me aseguré de tener **WSL2 (Windows Subsystem for Linux)** instal
 
 * **Instalación de WSL:** Confirmé mi instalación de WSL2, que permite acceder a la potencia de Linux directamente en Windows. (Comando: `wsl --install` si no lo tuviera).
   
-  * *Captura de terminal: ![Status WSL](/assets/day-01/wsl_status.png "Status WSL")*
+  * *Captura de terminal:
+  ![Status WSL](/assets/day-01/wsl_status.png "Status WSL")*
 
 Probé los siguientes comandos básicos para familiarizarme con la terminal:
 
@@ -75,7 +76,8 @@ echo "Hola DevOps" > hola.txt # Crea un archivo 'hola.txt' con el texto "Hola De
 cat hola.txt   # Muestra el contenido del archivo 'hola.txt'
 ```
 
-* *Captura de terminal: ![Comandos Linux en Terminal](/assets/day-01/comandos_linux.png "Comandos Linux")*
+* *Captura de terminal:
+![Comandos Linux en Terminal](/assets/day-01/comandos_linux.png "Comandos Linux")*
 
 -----
 
@@ -87,8 +89,8 @@ Hoy fue un día fundamental. Entender la problemática entre Dev y Ops me hizo v
 
 ## 📎 Recursos
 
-* **Video original que inspiró este resumen:** [What is DevOps? - Rackspace Technology](https://youtu.be/_I94-tJlovg?si=hCYGE-unV8DE6wdJ)
-* [Artículo del reto - Día 1](https://90daysdevops.295devops.com/semana-01/dia1/)
-* [Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
+* **🎥 Video original que inspiró este resumen:** [What is DevOps? - Rackspace Technology](https://youtu.be/_I94-tJlovg?si=hCYGE-unV8DE6wdJ)
+* 🧠 [Artículo del reto - Día 1](https://90daysdevops.295devops.com/semana-01/dia1/)
+* 📄 [Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
 
 -----

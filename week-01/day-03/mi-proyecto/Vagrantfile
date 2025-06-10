@@ -1,0 +1,12 @@
+# mi_proyecto/Vagrantfile
+Vagrant.configure("2") do |config|
+  # 📚 Tarea: Crea una VM con Ubuntu 22.04 (Jammy Jellyfish)
+  config.vm.box = "ubuntu/jammy64"
+
+  # 📚 Tarea: IP privada distinta (usaremos 192.168.33.20)
+  config.vm.network "private_network", ip: "192.168.33.20"
+
+  # Provisionamiento con Shell script
+  # Aquí llamamos a nuestro script externo
+  config.vm.provision "shell", path: "scripts/instalar_nginx.sh"
+end
