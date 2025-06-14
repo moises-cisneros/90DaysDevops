@@ -32,7 +32,9 @@ Este es el desglose diario de mi progreso, con enlaces a las notas y prácticas 
 
 - [**Día 01**](./week-01/day-01.md) - DevOps y la Importancia de Linux
 - [**Día 02**](./week-01/day-02.md) - Comandos, estructura, usuarios y permisos
-- [**Día 03**](./week-01/day-02.md) - Vagrant: Automatización con Shell
+- [**Día 03**](./week-01/day-03.md) - Vagrant: Automatización con Shell
+- [**Día 04**](./week-01/day-04.md) - Git & GitHub: Bases, Ramificación, Fusión y Pull Requests
+- [**Día 05**](./week-01/day-05.md) - Automatizando Tareas con Bash Scripting
 
 ## 📸 Contenido Adicional
 

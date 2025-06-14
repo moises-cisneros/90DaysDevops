@@ -81,7 +81,7 @@ cat hola.txt   # Muestra el contenido del archivo 'hola.txt'
 
 -----
 
-## 💭 Reflexiones
+## 💭 Reflexiones y lecciones clave
 
 Hoy fue un día fundamental. Entender la problemática entre Dev y Ops me hizo ver la **razón de ser de DevOps**, no solo como un conjunto de herramientas, sino como una **transformación cultural**. Dar mis primeros pasos con Linux en WSL me confirmó por qué es la base de todo lo que haré en este camino DevOps. Aunque los comandos fueron básicos, sentí el "poder" de la terminal que el artículo mencionaba. ¡Me entusiasma seguir explorando\!
 

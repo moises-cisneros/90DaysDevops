@@ -32,7 +32,7 @@ Hoy profundicé en los fundamentos del sistema operativo Linux desde la terminal
   ![Instalar Apache](/assets/day-02/terminal_apache.png "Instalar Apache")*
 * 📂 Creé una carpeta `day-02`, dentro practiqué:
 
-  * Crear archivo: `echo "Hola Roxs DevOps!" > saludos.txt`
+  * Crear archivo: `echo "Hola Moises DevOps!" > saludos.txt`
   * Copiarlo: `cp archivo.txt copia.txt`
   * Modificar: `mv copia.txt hola.txt`
   * Eliminar: `rm saludos.txt`
@@ -48,7 +48,7 @@ Hoy profundicé en los fundamentos del sistema operativo Linux desde la terminal
   * *Captura de terminal:
   ![Terminal new user](/assets/day-02/terminal_new_user.png "Terminal new user")*
 
-## 💭 Reflexiones
+## 💭 Reflexiones y lecciones clave
 
 Fue un día bastante completo y retador. Me costó un poco al principio recordar cómo funciona la jerarquía de permisos en Linux, pero practicar con `chmod` y `chown` me ayudó bastante. Lo más interesante fue ver en acción la diferencia entre Nginx y Apache, y cómo los servicios se gestionan con `systemctl`.
 

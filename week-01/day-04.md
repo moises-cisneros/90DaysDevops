@@ -117,7 +117,7 @@ Afronté varios desafíos para poner a prueba mis habilidades en Git:
   * *Captura de terminal:
   ![Git Hooks](/assets/day-04/exercise_git_hooks.png "Git Hooks")*
 
-## 💭 Reflexiones y lecciones clave para otros
+## 💭 Reflexiones y lecciones clave
 
 El Día 4 ha sido, sin duda, uno de los más intensos y gratificantes hasta ahora. Me llevo la certeza de que dominar Git a nivel de terminal es una habilidad indispensable que te sacará de apuros cuando las interfaces gráficas fallen, algo que ya me ha sucedido en el pasado.
 
@@ -129,11 +129,11 @@ Finalmente, el aprender sobre las **convenciones de commits** como `feat:`, `fix
 
 ## 📎 Recursos Utilizados
 
-* 🧠 **Artículo del reto Día 4:** [Git & GitHub - Basics, Branching, Merging, PRs](https://www.google.com/search?q=https://90daysdevops.295devops.com/semana-01/dia4/)
-* 🌐 **Sitio oficial de Git (descargas ):** [git-scm.com/downloads](https://git-scm.com/downloads)
-* 🌐 **Sitio oficial de Git (documentación):** [git-scm.com/docs](https://git-scm.com/docs)
-* **Aprendizaje Interactivo de Git Branching:** [Learn Git Branching](https://learngitbranching.js.org/?locale=es_ES
+* 🧠 [Artículo del reto Día 4](https://90daysdevops.295devops.com/semana-01/dia4/)
+* 🌐 [Sitio oficial de Git (descargas )](https://git-scm.com/downloads)
+* 🌐 [Sitio oficial de Git (documentación)](https://git-scm.com/docs)
+* 🌐 [Aprendizaje Interactivo de Git Branching](https://learngitbranching.js.org/?locale=es_ES
 )
-* 📄 **Guia de Git de Atlassian:** [Atlassian Git Learning Guide](https://www.atlassian.com/git)
-* 📖 **Libro "Pro Git" (Capítulo 2 - Uso Básico):** [Pro Git Book](https://git-scm.com/book/en/v2)
-* 🚀 **Guía "GitHub's Hello World":** [GitHub Hello World Guide](https://docs.github.com/en/get-started/quickstart/hello-world)
+* 📄 [Guia de Git de Atlassian](https://www.atlassian.com/git)
+* 📖 [Libro "Pro Git" (Capítulo 2 - Uso Básico)](https://git-scm.com/book/en/v2)
+* 🚀 [Guía "GitHub's Hello World"](https://docs.github.com/en/get-started/quickstart/hello-world)

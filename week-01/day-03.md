@@ -99,7 +99,7 @@ Este script no solo instaló Nginx, sino que también incluyó la instalación d
 * *Captura de la terminal y navegador:
 ![Mi proyecto](/assets/day-03/mi_proyecto_vagrant.png "Mi proyecto")*
 
-## 💭 Reflexiones y lecciones clave para otros
+## 💭 Reflexiones y lecciones clave
 
 Este día fue un claro ejemplo de la importancia de la **persistencia** en DevOps. Me encontré con errores iniciales durante la instalación de VirtualBox y Vagrant que, aunque frustrantes, se resolvieron con algo tan simple como **reiniciar el sistema**. Esto subraya una lección valiosa: **a veces, la solución más compleja no es la correcta, y una simple reinicio puede limpiar el camino.**
 
