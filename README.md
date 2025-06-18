@@ -41,8 +41,10 @@ Este es el desglose diario de mi progreso, con enlaces a las notas y prácticas 
 ## 📸 Contenido Adicional
 
 - **Capturas, esquemas y material visual** en [`assets/`](./assets)
-- **Resúmenes semanales del reto** en [`week-XX/`](./week-01)
+- **Resúmenes semanales del reto** en [`week-XX/summary-XX.md`](./week-01/summary-01.md) (ej. [Semana 01](./week-01/summary-01.md))
 - **Guías de herramientas y enlaces** en [`docs/`](./docs)
+    - **Lista completa de herramientas utilizadas:** [`docs/tools.md`](./docs/tools.md)
+    - **Referencias y enlaces externos:** [`docs/references.md`](./docs/references.md)
 
 ## 🎯 Objetivos personales
 
@@ -52,11 +54,25 @@ Este es el desglose diario de mi progreso, con enlaces a las notas y prácticas 
 
 ## 🧩 Herramientas utilizadas
 
-- Linux (WSL/Ubuntu)
+Durante la Semana 01 se han utilizado y documentado las siguientes herramientas principales:
+
+- Linux (WSL2)
+- Nginx
+- Apache HTTP Server
+- VirtualBox
+- Vagrant
 - Git & GitHub
-- Markdown
+- Bash Scripting
+- Ansible
+- Redis
+- PostgreSQL
+- Node.js
+- Python
+- Flask
+- Gunicorn
 - [Visual Studio Code](https://code.visualstudio.com/)
-- Herramientas según el roadmap: Docker, GitHub Actions, Terraform, Ansible, etc.
+
+Para una descripción detallada, instalación y recursos de cada herramienta, consulta [`docs/tools.md`](./docs/tools.md).
 
 ## 🔗 Redes y seguimiento
 

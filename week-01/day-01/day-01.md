@@ -6,7 +6,6 @@
 
 Hoy desentrañamos **DevOps**, una filosofía que revoluciona cómo los equipos de desarrollo y operaciones colaboran para entregar software más rápido y mejor. Además, nos sumergimos en el **mundo de Linux**, el sistema operativo esencial que impulsa casi todo en el universo DevOps.
 
-
 ## 🧠 Lo que aprendí
 
 ### ¿Qué es DevOps? El Puente entre Desarrollo y Operaciones
