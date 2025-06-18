@@ -1,0 +1,15 @@
+- name: Actualizar caché de apt
+  ansible.builtin.apt:
+    update_cache: yes
+
+- name: Instalar Apache y PHP
+  ansible.builtin.apt:
+    name: ["apache2", "libapache2-mod-php", "php"]
+    state: present
+
+- name: Asegurar que Apache2 esté corriendo y habilitado
+  ansible.builtin.service:
+    name: apache2
+    state: started
+    enabled: yes
+  notify: Restart Apache2

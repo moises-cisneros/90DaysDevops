@@ -1,0 +1,9 @@
+---
+- name: Desafío Dia 6 - Despliegue de Servidor Web con Roles y Vagrant
+  hosts: all # webservers
+  become: yes
+
+  roles:
+    - devops
+    - nginx
+    - firewall

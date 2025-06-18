@@ -1,0 +1,17 @@
+- name: Instalar Nginx
+  apt:
+    name: nginx
+    state: present
+    update_cache: yes
+
+- name: Copiar página HTML personalizada
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+    mode: '0644'
+
+- name: Asegurar que Nginx esté corriendo y habilitado al inicio
+  service:
+    name: nginx
+    state: started
+    enabled: yes

@@ -1,0 +1,22 @@
+- name: Asegurar que UFW esté activo
+  ansible.builtin.ufw:
+    state: enabled
+    policy: deny
+
+- name: Permitir acceso SSH (puerto 22)
+  ansible.builtin.ufw:
+    rule: allow
+    port: '22'
+    proto: tcp
+
+- name: Permitir acceso HTTP (puerto 80)
+  ansible.builtin.ufw:
+    rule: allow
+    port: '80'
+    proto: tcp
+
+- name: Permitir acceso HTTPS (puerto 443)
+  ansible.builtin.ufw:
+    rule: allow
+    port: '443'
+    proto: tcp

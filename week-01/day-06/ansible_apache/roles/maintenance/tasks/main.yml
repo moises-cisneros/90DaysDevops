@@ -1,0 +1,7 @@
+- name: Añadir un cron job para una tarea de mantenimiento
+  ansible.builtin.cron:
+    name: "Registro de actividad de Ansible"
+    minute: "*"
+    job: "echo 'Ansible: Tarea de mantenimiento ejecutada en $(date)' >> /var/log/ansible_maintenance.log"
+    user: root
+    state: present

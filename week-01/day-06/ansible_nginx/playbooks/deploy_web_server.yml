@@ -1,0 +1,9 @@
+---
+- name: Despliegue de servidor web Nginx con configuracion basica
+  hosts: webservers # Apunta al grupo 'webservers' de tu inventario
+  become: yes       # Ejecutar con privilegios de sudo
+
+  roles:
+    - common         # Primero el rol común (crear usuario)
+    - nginx          # Luego el rol de Nginx (instalar, copiar página)
+    - firewall       # Finalmente el rol de firewall

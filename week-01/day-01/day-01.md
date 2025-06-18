@@ -6,7 +6,6 @@
 
 Hoy desentrañamos **DevOps**, una filosofía que revoluciona cómo los equipos de desarrollo y operaciones colaboran para entregar software más rápido y mejor. Además, nos sumergimos en el **mundo de Linux**, el sistema operativo esencial que impulsa casi todo en el universo DevOps.
 
------
 
 ## 🧠 Lo que aprendí
 
@@ -28,8 +27,6 @@ Para lograr esto, necesitan un **cambio de mentalidad** (trabajar en equipo) y *
 
 DevOps es clave para que las empresas innoven velozmente y respondan a lo que el mercado necesita, mejorando la calidad y la frecuencia de sus lanzamientos de software.
 
------
-
 ### ¿Por qué Linux es CLAVE en DevOps?
 
 Si DevOps es el cerebro, **Linux es el corazón**. Este sistema operativo es indispensable en el 90% de los servidores de producción y la base de casi todas las herramientas DevOps.
@@ -45,13 +42,9 @@ Si DevOps es el cerebro, **Linux es el corazón**. Este sistema operativo es ind
 
 **En resumen, un Ingeniero DevOps *debe* dominar Linux** para operar la terminal, automatizar con scripts, entender contenedores y tener control total sobre los servidores.
 
------
-
 ### Reflexión Personal
 
 Después de esta lección, DevOps para mí significa **la sinergia necesaria entre desarrollo y operaciones para crear un flujo continuo de valor**, donde la automatización y la colaboración son el pilar. Ya conocía GitHub (para control de versiones) y la existencia de Linux, pero herramientas como Jenkins, Chef, Puppet y New Relic son nuevas para mí en este contexto DevOps. Me emociona aprender cómo todas estas piezas encajan.
-
------
 
 ## ⚙️ Ejercicios realizados
 
@@ -79,18 +72,12 @@ cat hola.txt   # Muestra el contenido del archivo 'hola.txt'
 * *Captura de terminal:
 ![Comandos Linux en Terminal](/assets/day-01/comandos_linux.png "Comandos Linux")*
 
------
-
 ## 💭 Reflexiones y lecciones clave
 
 Hoy fue un día fundamental. Entender la problemática entre Dev y Ops me hizo ver la **razón de ser de DevOps**, no solo como un conjunto de herramientas, sino como una **transformación cultural**. Dar mis primeros pasos con Linux en WSL me confirmó por qué es la base de todo lo que haré en este camino DevOps. Aunque los comandos fueron básicos, sentí el "poder" de la terminal que el artículo mencionaba. ¡Me entusiasma seguir explorando\!
-
------
 
 ## 📎 Recursos
 
 * **🎥 Video original que inspiró este resumen:** [What is DevOps? - Rackspace Technology](https://youtu.be/_I94-tJlovg?si=hCYGE-unV8DE6wdJ)
 * 🧠 [Artículo del reto - Día 1](https://90daysdevops.295devops.com/semana-01/dia1/)
 * 📄 [Instalación de Linux en Windows con WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
-
------

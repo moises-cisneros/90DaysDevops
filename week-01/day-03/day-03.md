@@ -114,5 +114,3 @@ Finalmente, la capacidad de configurar una IP privada y acceder a la VM desde mi
 * 🎥 [Instalación Ubuntu en VirtualBox (YouTube)](https://youtu.be/58UgwGzUeq8?si=PcbGjHTXf1ol-EF9)
 * 🎥 [Habilitar copiar y pegar en VirtualBox (YouTube)](https://youtu.be/-Xf5slaCZNs?si=nb4D6VyCFqCckgB-)
 * 📄 [Documentación oficial de Vagrant](https://developer.hashicorp.com/vagrant/docs)
-
------

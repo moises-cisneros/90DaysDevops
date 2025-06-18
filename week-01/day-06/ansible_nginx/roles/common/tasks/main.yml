@@ -1,0 +1,8 @@
+- name: Crear usuario 'devops' con acceso sudo
+  user:
+    name: devops
+    groups: sudo
+    append: yes
+    state: present
+    shell: /bin/bash
+    password: "{{ 'devops_password' | password_hash('sha512') }}"

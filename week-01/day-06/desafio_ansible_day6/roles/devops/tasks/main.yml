@@ -1,0 +1,20 @@
+- name: Instalar passlib para el manejo de contraseñas de Ansible
+  ansible.builtin.apt:
+    name: python3-passlib
+    state: present
+
+- name: Crear usuario 'devops' con acceso sudo
+  ansible.builtin.user:
+    name: devops
+    groups: sudo
+    append: yes
+    state: present
+    shell: /bin/bash
+    password: "{{ 'devops_password' | password_hash('sha512') }}"
+
+- name: Copiar clave SSH pública para 'devops'
+  ansible.posix.authorized_key:
+    user: devops
+    state: present
+    key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+  when: lookup('file', '~/.ssh/id_rsa.pub', errors='ignore')

@@ -4,7 +4,7 @@
 
 ## ✅ Tema del día
 
-Hoy dimos un salto fundamental en el mundo de DevOps con la **introducción a Ansible**. Exploramos qué es Ansible, por qué es una herramienta de automatización de infraestructura tan popular, y cómo utilizar su Interfaz de Línea de Comandos (CLI) para aprovisionar y gestionar servidores de forma declarativa. El objetivo central fue aprender a orquestar y configurar múltiples máquinas de manera eficiente y repetible.
+Hoy dimos un salto fundamental en el mundo de DevOps con la **introducción a Ansible**. Exploramos qué es Ansible, por qué es una herramienta de automatización de infraestructura tan popular, y cómo utilizar su Interfaz de Línea de Comandos (CLI) para aprovisionar y gestionar servidores de forma declarativa. El objetivo central fue aprender a orquestar y configurar múltiples máquinas de manera eficiente y repetible, **enfocándonos en la superación de desafíos al usar Windows como sistema operativo anfitrión y la implementación de Ansible en una máquina virtual para gestionar otra.**
 
 ## 🧠 Lo que aprendí
 
@@ -192,37 +192,52 @@ Para practicar con Ansible, configuré un entorno de laboratorio con dos máquin
 * **Captura de pantalla**
 ![Primer playbook](/assets/day-06/primer_playbook.png "Primer playbook")
 
-## ⚙️ Proyectos Prácticos de Despliegue con Ansible
-
-Para poner en práctica todos los conceptos aprendidos, abordé dos proyectos de despliegue de servidores web utilizando una estructura de **roles** en Ansible, lo que permite una mayor modularidad y reutilización del código.
-
 ### Proyecto 1: Despliegue de un Servidor Nginx Básico
 
-Puedes encontrar el detalle completo de este proyecto, incluyendo la estructura de directorios, el código de los roles y las verificaciones, en el siguiente archivo:
+Este proyecto se centró en la configuración y despliegue fundamental de un servidor web Nginx, sirviendo como una introducción práctica a la automatización de la configuración de servicios.
 
-* [**`proyecto_nginx.md`**](/week-01/day-06/proyecto_nginx.md)
+* [**`proyecto_nginx.md`**](/week-01/day-06/ansible_apache/proyecto_apache.md)
 
-### Proyecto 2: Despliegue y Gestión de un Servidor Apache con Monitorización
+### Proyecto 2: Despliegue y Gestión de Servidor Apache con Monitorización
 
-El segundo proyecto me permitió profundizar en la gestión de servicios web y la monitorización básica, también utilizando la estructura de roles de Ansible.
+Aquí se exploró la gestión de un servidor Apache, incluyendo la instalación, configuración de sitios web y una introducción a la monitorización básica, todo automatizado con Ansible.
 
-* [**`proyecto_apache.md`**](/week-01/day-06/proyecto_apache.md)
+* [**`proyecto_apache.md`**](/week-01/day-06/ansible_apache/proyecto_apache.md)
+
+### Proyecto 3: Despliegue de Plantilla Web Freelancer con Vagrant y Ansible Local
+
+Este fue un proyecto crucial que combinó Vagrant para la creación de la VM y **Ansible ejecutándose localmente dentro de esa VM (ansible\_local)** para desplegar una plantilla web HTML estática. Esta implementación fue clave para superar los desafíos de compatibilidad de Ansible en mi entorno Windows.
+
+* [**`proyecto_freelancer.md`**](/week-01/day-06/freelancer_deploy/proyecto_freelancer.md)
+
+### Proyecto 4: Desafío Día 6 - Despliegue con Vagrant y Roles
+
+El desafío del día consolidó la integración de Vagrant y Ansible, permitiéndome orquestar el despliegue de un entorno con múltiples servicios y configuraciones complejas, utilizando la estructura de roles para una gestión eficiente.
+
+* [**`proyecto_desafio_day6.md`**](/week-01/day-06/desafio_ansible_day6/proyecto_desafio_day6.md)
 
 ## 💭 Reflexiones y lecciones clave
 
 El Día 6 fue, sin duda, uno de los más **desafiantes pero gratificantes**. La configuración inicial del laboratorio con VirtualBox y la red me llevó **unas horas** de configurar y depurar. La anécdota de invertir la configuración de los adaptadores de red (NAT vs. Red Interna) es un claro ejemplo de cómo pequeños detalles pueden consumir mucho tiempo y la importancia de la paciencia y la depuración metódica.
 
-A pesar de los desafíos con mi entorno (usar Windows como SO anfitrión y las limitaciones con WSL para interactuar con VirtualBox), pude enfocarme en los nodos de control y cliente que monté, lo cual fue clave para comprender la automatización.
+### Superando el Desafío del Entorno Windows
+
+Uno de los mayores aprendizajes de este día fue la **adaptación del flujo de trabajo de Ansible a mi sistema operativo Windows**. Inicialmente, intenté instalar y ejecutar Ansible directamente en Windows o a través de WSL, lo cual presentó diversas incompatibilidades y frustraciones. La lección clave aquí fue la **capacidad de Pivotar:** en lugar de forzar la instalación directa, opté por una solución más robusta y habitual en el mundo DevOps: **crear una máquina virtual (VM) en VirtualBox y usarla como mi "nodo de control" de Ansible**. Esto me permitió:
+
+* Tener un entorno Linux nativo y estable para Ansible.
+* Evitar problemas de PATH, permisos de Windows y compatibilidad de Python.
+* Aprender a usar **`ansible_local` en Vagrant**, una técnica poderosa para aprovisionar la propia VM donde reside el Vagrantfile. Esta fue la solución para los proyectos más complejos, como el despliegue de la plantilla Freelancer y el Desafío del Día 6.
+
+### El Poder de Ansible y los Roles
 
 Ansible es una herramienta **increíblemente potente y flexible**. La capacidad de describir el estado deseado de la infraestructura en archivos YAML y dejar que Ansible se encargue de la implementación es un cambio de paradigma total respecto a la configuración manual. Los **roles** son esenciales para organizar proyectos grandes y hacer el código reutilizable, algo que valoro mucho para mantener una "infraestructura como código" limpia y escalable.
 
 La práctica con los comandos ad-hoc y, especialmente, la creación y ejecución de **playbooks complejos** para Nginx y Apache, demostraron el verdadero poder de Ansible para automatizar despliegues de aplicaciones, configuración de firewalls y hasta la gestión de usuarios. Es una habilidad fundamental que me acerca un paso más a ser un ingeniero DevOps competente.
 
------
-
 ## 📎 Recursos
 
-* 🧠 **Artículo del reto Día 6:** [Introducción a Ansible](https://90daysdevops.295devops.com/semana-01/dia6)
-* 🌐 **Descargar Ubuntu:** [Sitio oficial de Ubuntu](https://ubuntu.com/download/desktop)
-* 📄 **Documentación oficial de Ansible:** [Ansible Documentation](https://docs.ansible.com/)
-* 🌐 **Solución a problemas de sudo en Ansible:** [Stack Overflow - Jenkins fails while restarting MySQL (sudo no tty present)](https://stackoverflow.com/questions/16408877/jenkins-fails-while-restarting-my-sql-sudo-no-tty-present-and-no-askpass-progr)
+* 🧠 [Artículo del reto Día 6](https://90daysdevops.295devops.com/semana-01/dia6)
+* 🌐 [Sitio oficial de Ubuntu](https://ubuntu.com/download/desktop)
+* 📄 [Documentación oficial de Ansibl](https://docs.ansible.com/)
+* 🌐 [Solución a problemas de sudo en Ansible (Stack Overflow)](https://stackoverflow.com/questions/16408877/jenkins-fails-while-restarting-my-sql-sudo-no-tty-present-and-no-askpass-progr)
+* 🌐 [Link donde consegu iconos (Ansible)](https://github.com/benc-uk/icon-collection)

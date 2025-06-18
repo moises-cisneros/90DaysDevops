@@ -1,0 +1,13 @@
+- name: Copiar archivo index.php al directorio web de Apache
+  ansible.builtin.copy:
+    src: index.php
+    dest: /var/www/html/index.php
+    owner: www-data
+    group: www-data
+    mode: '0644'
+
+- name: Borrar archivo index.html por defecto de Apache (si existe)
+  ansible.builtin.file:
+    path: /var/www/html/index.html
+    state: absent
+  ignore_errors: yes

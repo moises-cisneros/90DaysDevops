@@ -1,0 +1,10 @@
+---
+- name: Despliegue y Configuracion de Servidor Web Apache
+  hosts: webservers
+  become: yes
+
+  roles:
+    - apache
+    - web_content
+    - monitoring
+    - maintenance

@@ -1,0 +1,4 @@
+- name: Instalar herramienta de monitorización (htop y glances)
+  ansible.builtin.apt:
+    name: ["htop", "glances"]
+    state: present
