@@ -38,13 +38,17 @@ Este es el desglose diario de mi progreso, con enlaces a las notas y prácticas 
 - [**Día 06**](./week-01/day-06/day-06.md) - Introducción a Ansible: Automatización de Infraestructura
 - [**Día 07**](./week-01/day-07/day-07.md) - Desafío Final Semana 1: Despliegue de Roxs Voting App
 
+### Semana 02
+
+- [**Día 08**](./week-02/day-08/day-08.md) - Conceptos básicos de contenedores Docker
+
 ## 📸 Contenido Adicional
 
 - **Capturas, esquemas y material visual** en [`assets/`](./assets)
 - **Resúmenes semanales del reto** en [`week-XX/summary-XX.md`](./week-01/summary-01.md) (ej. [Semana 01](./week-01/summary-01.md))
 - **Guías de herramientas y enlaces** en [`docs/`](./docs)
-    - **Lista completa de herramientas utilizadas:** [`docs/tools.md`](./docs/tools.md)
-    - **Referencias y enlaces externos:** [`docs/references.md`](./docs/references.md)
+  - **Lista completa de herramientas utilizadas:** [`docs/tools.md`](./docs/tools.md)
+  - **Referencias y enlaces externos:** [`docs/references.md`](./docs/references.md)
 
 ## 🎯 Objetivos personales
 
