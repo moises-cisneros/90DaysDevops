@@ -42,6 +42,7 @@ Este es el desglose diario de mi progreso, con enlaces a las notas y prácticas 
 
 - [**Día 08**](./week-02/day-08/day-08.md) - Conceptos básicos de contenedores Docker
 - [**Día 09**](./week-02/day-09/day-09.md) - Construye, ejecuta y entiende tu primer contenedor
+- [**Día 10**](./week-02/day-10/day-10.md) - Gestión de contenedores Docker
 
 ## 📸 Contenido Adicional
 
